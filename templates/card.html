@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личная карточка '{{ candidate.name }}'</title>
+</head>
+<body>
+<h1>Кандидат {{candidate.id}}</h1>
+<p>Имя: {{candidate.name}}</p>
+<img src="{{ candidate.picture }}" alt="{{ candidate.name }}" width=200/>
+<p>Позиция кандидата: {{ candidate.position }}</p>
+<p>Навыки кандидата: {{ candidate.skills }}</p>
+</body>
+</html>
